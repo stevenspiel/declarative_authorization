@@ -429,15 +429,30 @@ See `Authorization::TestHelper` for more information.
 #Installation of declarative_authorization
 
 One of three options to install the plugin:
-* Install by Gem:  Add to your environment.rb in the initializer block:
-    config.gem "declarative_authorization"
-  Note: you need gemcutter support in place, i.e. call
-    gem install gemcutter
-    gem tumble
-  And call from your application's root directory
-    rake gems:install
-* Alternativelyi, in Rails 2, to install from github, execute in your application's root directory
-    cd vendor/plugins && git clone git://github.com/stffn/declarative_authorization.git
+* Install by Gem: Add to your `environment.rb` in the initializer block:
+
+```
+config.gem "declarative_authorization"
+```
+
+*  Note: you need gemcutter support in place, i.e. call
+
+```
+gem install gemcutter
+gem tumble
+```
+
+*  And call from your application's root directory
+
+```
+rake gems:install
+```
+
+* Alternatively, in Rails 2, to install from github, execute in your application's root directory
+
+```
+cd vendor/plugins && git clone git://github.com/stffn/declarative_authorization.git
+```
 
 Then, 
 * provide the requirements as noted below, 
@@ -458,6 +473,7 @@ Of the various ways to provide these requirements, here is one way employing
 `restful_authentication`.
 
 * Install restful_authentication
+* 
    cd vendor/plugins && git clone git://github.com/technoweenie/restful-authentication.git restful_authentication
    cd ../.. && ruby script/generate authenticated user sessions
 
