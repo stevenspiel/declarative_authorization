@@ -435,14 +435,14 @@ One of three options to install the plugin:
 config.gem "declarative_authorization"
 ```
 
-*  Note: you need gemcutter support in place, i.e. call
+   Note: you need gemcutter support in place, i.e. call
 
 ```
 gem install gemcutter
 gem tumble
 ```
 
-*  And call from your application's root directory
+   And call from your application's root directory
 
 ```
 rake gems:install
