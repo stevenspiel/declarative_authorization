@@ -32,7 +32,7 @@ Requirements
 See below for installation instructions.
 
 
-There is a decl_auth screencast by Ryan Bates](http://railscasts.com/episodes/188-declarative-authorization), nicely introducing the main concepts:
+There is a decl_auth screencast by [Ryan Bates](http://railscasts.com/episodes/188-declarative-authorization), nicely introducing the main concepts:
 
 
 
